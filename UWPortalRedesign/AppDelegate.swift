@@ -41,6 +41,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    /*
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity,         restorationHandler: @escaping  ([UIUserActivityRestoring]?) -> Void) -> Bool {
+        
+        
+        userActivity.isEligibleForPrediction = true
+        
+        if let intent = userActivity.interaction?.intent as? NextClassIntent {
+            return true
+        }
+        return false
+        
+        
+    }*/
 
 }
 

@@ -7,6 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5100B0C721373D6A007DF0CA /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D141392115258100CF63B7 /* IntentHandler.swift */; };
+		5100B0C821373D6D007DF0CA /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D141392115258100CF63B7 /* IntentHandler.swift */; };
+		5100B0C921373D6F007DF0CA /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D141392115258100CF63B7 /* IntentHandler.swift */; };
+		5100B0CA21373D73007DF0CA /* RestaurantIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DA3802118E14F001D196F /* RestaurantIntentHandler.swift */; };
+		5100B0CB21373D75007DF0CA /* RestaurantIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DA3802118E14F001D196F /* RestaurantIntentHandler.swift */; };
+		5100B0CC21373D76007DF0CA /* RestaurantIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DA3802118E14F001D196F /* RestaurantIntentHandler.swift */; };
+		5100B0CD21373D7D007DF0CA /* RegistrarOfficeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DA3822118E15D001D196F /* RegistrarOfficeIntentHandler.swift */; };
+		5100B0CE21373D7E007DF0CA /* RegistrarOfficeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DA3822118E15D001D196F /* RegistrarOfficeIntentHandler.swift */; };
+		5100B0CF21373D81007DF0CA /* RegistrarOfficeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DA3822118E15D001D196F /* RegistrarOfficeIntentHandler.swift */; };
+		5100B0D021373D85007DF0CA /* NextClassIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D14157211529F700CF63B7 /* NextClassIntentHandler.swift */; };
+		5100B0D121373D86007DF0CA /* NextClassIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D14157211529F700CF63B7 /* NextClassIntentHandler.swift */; };
+		5100B0D221373D88007DF0CA /* NextClassIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D14157211529F700CF63B7 /* NextClassIntentHandler.swift */; };
+		5100B0D321373DB6007DF0CA /* PortalIntentDefinition.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 51D1410D21151FFD00CF63B7 /* PortalIntentDefinition.intentdefinition */; };
+		5100B0D421373DB7007DF0CA /* PortalIntentDefinition.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 51D1410D21151FFD00CF63B7 /* PortalIntentDefinition.intentdefinition */; };
+		512A2BAE21128856005696F7 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 512A2BAD21128855005696F7 /* Settings.png */; };
+		513E34072112814000DDDE66 /* DashBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = 513E34062112813F00DDDE66 /* DashBoard.png */; };
+		51772963211606870064BA5F /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D141432115258100CF63B7 /* IntentViewController.swift */; };
+		51772964211606880064BA5F /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D141432115258100CF63B7 /* IntentViewController.swift */; };
+		51772965211606880064BA5F /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D141432115258100CF63B7 /* IntentViewController.swift */; };
+		517729662116068B0064BA5F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D141452115258100CF63B7 /* MainInterface.storyboard */; };
+		517729672116068C0064BA5F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D141452115258100CF63B7 /* MainInterface.storyboard */; };
+		517729682116068D0064BA5F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D141452115258100CF63B7 /* MainInterface.storyboard */; };
+		5180B57A210EAA6A0045C60E /* UniversityOfWaterloo_logo_vert_rgb.png in Resources */ = {isa = PBXBuildFile; fileRef = 5180B579210EAA6A0045C60E /* UniversityOfWaterloo_logo_vert_rgb.png */; };
+		5180B57C210EACAD0045C60E /* defaultBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5180B57B210EACAD0045C60E /* defaultBackground.png */; };
+		5180B57E210EB6F50045C60E /* IMG_1435.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5180B57D210EB6F40045C60E /* IMG_1435.jpg */; };
+		5188BC772111425A00F29B22 /* ProfileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5188BC762111425A00F29B22 /* ProfileImage.png */; };
+		5188BC792111435000F29B22 /* SSCC-Pallet-Barcode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5188BC782111435000F29B22 /* SSCC-Pallet-Barcode.jpg */; };
+		5188BC7B211145C700F29B22 /* profilepic.png in Resources */ = {isa = PBXBuildFile; fileRef = 5188BC7A211145C600F29B22 /* profilepic.png */; };
+		5188BC7D2111598300F29B22 /* Screen Shot 2018-07-31 at 10.59.00 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5188BC7C2111598200F29B22 /* Screen Shot 2018-07-31 at 10.59.00 PM.png */; };
+		51C57C43211284DC00E2D943 /* Notification.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C57C42211284DB00E2D943 /* Notification.png */; };
+		51C57C452112862D00E2D943 /* NotificationNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C57C442112862C00E2D943 /* NotificationNew.png */; };
+		51D141412115258100CF63B7 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D140F721151FC900CF63B7 /* IntentsUI.framework */; };
+		51D1414B2115258100CF63B7 /* PortalIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 51D141402115258100CF63B7 /* PortalIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		51D1414E2115258100CF63B7 /* PortalIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 51D141372115258100CF63B7 /* PortalIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		51F86EAD210EA00300278AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F86EAC210EA00300278AEE /* AppDelegate.swift */; };
 		51F86EAF210EA00300278AEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F86EAE210EA00300278AEE /* ViewController.swift */; };
 		51F86EB2210EA00300278AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F86EB0210EA00300278AEE /* Main.storyboard */; };
@@ -14,9 +48,24 @@
 		51F86EB7210EA00500278AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F86EB5210EA00500278AEE /* LaunchScreen.storyboard */; };
 		51F86EC2210EA00500278AEE /* UWPortalRedesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F86EC1210EA00500278AEE /* UWPortalRedesignTests.swift */; };
 		51F86ECD210EA00500278AEE /* UWPortalRedesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F86ECC210EA00500278AEE /* UWPortalRedesignUITests.swift */; };
+		51F86EDB210EA07400278AEE /* IMG_563C85D390A4-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 51F86EDA210EA07300278AEE /* IMG_563C85D390A4-1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		51D141492115258100CF63B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51F86EA1210EA00300278AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51D1413F2115258100CF63B7;
+			remoteInfo = PortalIntentsUI;
+		};
+		51D1414C2115258100CF63B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51F86EA1210EA00300278AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51D141362115258100CF63B7;
+			remoteInfo = PortalIntents;
+		};
 		51F86EBE210EA00500278AEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 51F86EA1210EA00300278AEE /* Project object */;
@@ -33,7 +82,46 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		51D1410C21151FC900CF63B7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				51D1414E2115258100CF63B7 /* PortalIntents.appex in Embed App Extensions */,
+				51D1414B2115258100CF63B7 /* PortalIntentsUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		512A2BAD21128855005696F7 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		513E34062112813F00DDDE66 /* DashBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DashBoard.png; sourceTree = "<group>"; };
+		5180B579210EAA6A0045C60E /* UniversityOfWaterloo_logo_vert_rgb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UniversityOfWaterloo_logo_vert_rgb.png; sourceTree = "<group>"; };
+		5180B57B210EACAD0045C60E /* defaultBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultBackground.png; sourceTree = "<group>"; };
+		5180B57D210EB6F40045C60E /* IMG_1435.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1435.jpg; sourceTree = "<group>"; };
+		5188BC762111425A00F29B22 /* ProfileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileImage.png; sourceTree = "<group>"; };
+		5188BC782111435000F29B22 /* SSCC-Pallet-Barcode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SSCC-Pallet-Barcode.jpg"; sourceTree = "<group>"; };
+		5188BC7A211145C600F29B22 /* profilepic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilepic.png; sourceTree = "<group>"; };
+		5188BC7C2111598200F29B22 /* Screen Shot 2018-07-31 at 10.59.00 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-07-31 at 10.59.00 PM.png"; sourceTree = "<group>"; };
+		518DA3802118E14F001D196F /* RestaurantIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantIntentHandler.swift; sourceTree = "<group>"; };
+		518DA3822118E15D001D196F /* RegistrarOfficeIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarOfficeIntentHandler.swift; sourceTree = "<group>"; };
+		51C57C42211284DB00E2D943 /* Notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notification.png; sourceTree = "<group>"; };
+		51C57C442112862C00E2D943 /* NotificationNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationNew.png; sourceTree = "<group>"; };
+		51D140E721151FA900CF63B7 /* UWPortalRedesign.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UWPortalRedesign.entitlements; sourceTree = "<group>"; };
+		51D140F721151FC900CF63B7 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		51D1410D21151FFD00CF63B7 /* PortalIntentDefinition.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = PortalIntentDefinition.intentdefinition; sourceTree = "<group>"; };
+		51D141372115258100CF63B7 /* PortalIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PortalIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D141392115258100CF63B7 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		51D1413B2115258100CF63B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D141402115258100CF63B7 /* PortalIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PortalIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D141432115258100CF63B7 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		51D141462115258100CF63B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		51D141482115258100CF63B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D14157211529F700CF63B7 /* NextClassIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextClassIntentHandler.swift; sourceTree = "<group>"; };
 		51F86EA9210EA00300278AEE /* UWPortalRedesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UWPortalRedesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F86EAC210EA00300278AEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51F86EAE210EA00300278AEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,9 +135,25 @@
 		51F86EC8210EA00500278AEE /* UWPortalRedesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UWPortalRedesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F86ECC210EA00500278AEE /* UWPortalRedesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWPortalRedesignUITests.swift; sourceTree = "<group>"; };
 		51F86ECE210EA00500278AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F86EDA210EA07300278AEE /* IMG_563C85D390A4-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_563C85D390A4-1.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		51D141342115258100CF63B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D1413D2115258100CF63B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D141412115258100CF63B7 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51F86EA6210EA00300278AEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,12 +178,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51D140F621151FC900CF63B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51D140F721151FC900CF63B7 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51D141382115258100CF63B7 /* PortalIntents */ = {
+			isa = PBXGroup;
+			children = (
+				51D141392115258100CF63B7 /* IntentHandler.swift */,
+				518DA3802118E14F001D196F /* RestaurantIntentHandler.swift */,
+				518DA3822118E15D001D196F /* RegistrarOfficeIntentHandler.swift */,
+				51D14157211529F700CF63B7 /* NextClassIntentHandler.swift */,
+				51D1413B2115258100CF63B7 /* Info.plist */,
+			);
+			path = PortalIntents;
+			sourceTree = "<group>";
+		};
+		51D141422115258100CF63B7 /* PortalIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				51D141432115258100CF63B7 /* IntentViewController.swift */,
+				51D141452115258100CF63B7 /* MainInterface.storyboard */,
+				51D141482115258100CF63B7 /* Info.plist */,
+			);
+			path = PortalIntentsUI;
+			sourceTree = "<group>";
+		};
 		51F86EA0210EA00300278AEE = {
 			isa = PBXGroup;
 			children = (
 				51F86EAB210EA00300278AEE /* UWPortalRedesign */,
 				51F86EC0210EA00500278AEE /* UWPortalRedesignTests */,
 				51F86ECB210EA00500278AEE /* UWPortalRedesignUITests */,
+				51D141382115258100CF63B7 /* PortalIntents */,
+				51D141422115258100CF63B7 /* PortalIntentsUI */,
+				51D140F621151FC900CF63B7 /* Frameworks */,
 				51F86EAA210EA00300278AEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +227,8 @@
 				51F86EA9210EA00300278AEE /* UWPortalRedesign.app */,
 				51F86EBD210EA00500278AEE /* UWPortalRedesignTests.xctest */,
 				51F86EC8210EA00500278AEE /* UWPortalRedesignUITests.xctest */,
+				51D141372115258100CF63B7 /* PortalIntents.appex */,
+				51D141402115258100CF63B7 /* PortalIntentsUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +236,26 @@
 		51F86EAB210EA00300278AEE /* UWPortalRedesign */ = {
 			isa = PBXGroup;
 			children = (
+				51D140E721151FA900CF63B7 /* UWPortalRedesign.entitlements */,
 				51F86EAC210EA00300278AEE /* AppDelegate.swift */,
 				51F86EAE210EA00300278AEE /* ViewController.swift */,
 				51F86EB0210EA00300278AEE /* Main.storyboard */,
 				51F86EB3210EA00500278AEE /* Assets.xcassets */,
+				5180B57B210EACAD0045C60E /* defaultBackground.png */,
 				51F86EB5210EA00500278AEE /* LaunchScreen.storyboard */,
+				5188BC7C2111598200F29B22 /* Screen Shot 2018-07-31 at 10.59.00 PM.png */,
+				512A2BAD21128855005696F7 /* Settings.png */,
+				5180B57D210EB6F40045C60E /* IMG_1435.jpg */,
+				5188BC762111425A00F29B22 /* ProfileImage.png */,
+				5180B579210EAA6A0045C60E /* UniversityOfWaterloo_logo_vert_rgb.png */,
+				5188BC7A211145C600F29B22 /* profilepic.png */,
+				5188BC782111435000F29B22 /* SSCC-Pallet-Barcode.jpg */,
+				51C57C42211284DB00E2D943 /* Notification.png */,
+				513E34062112813F00DDDE66 /* DashBoard.png */,
+				51F86EDA210EA07300278AEE /* IMG_563C85D390A4-1.jpeg */,
+				51C57C442112862C00E2D943 /* NotificationNew.png */,
 				51F86EB8210EA00500278AEE /* Info.plist */,
+				51D1410D21151FFD00CF63B7 /* PortalIntentDefinition.intentdefinition */,
 			);
 			path = UWPortalRedesign;
 			sourceTree = "<group>";
@@ -128,6 +281,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		51D141362115258100CF63B7 /* PortalIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D141522115258100CF63B7 /* Build configuration list for PBXNativeTarget "PortalIntents" */;
+			buildPhases = (
+				51D141332115258100CF63B7 /* Sources */,
+				51D141342115258100CF63B7 /* Frameworks */,
+				51D141352115258100CF63B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortalIntents;
+			productName = PortalIntents;
+			productReference = 51D141372115258100CF63B7 /* PortalIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		51D1413F2115258100CF63B7 /* PortalIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D1414F2115258100CF63B7 /* Build configuration list for PBXNativeTarget "PortalIntentsUI" */;
+			buildPhases = (
+				51D1413C2115258100CF63B7 /* Sources */,
+				51D1413D2115258100CF63B7 /* Frameworks */,
+				51D1413E2115258100CF63B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortalIntentsUI;
+			productName = PortalIntentsUI;
+			productReference = 51D141402115258100CF63B7 /* PortalIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		51F86EA8210EA00300278AEE /* UWPortalRedesign */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51F86ED1210EA00500278AEE /* Build configuration list for PBXNativeTarget "UWPortalRedesign" */;
@@ -135,10 +322,13 @@
 				51F86EA5210EA00300278AEE /* Sources */,
 				51F86EA6210EA00300278AEE /* Frameworks */,
 				51F86EA7210EA00300278AEE /* Resources */,
+				51D1410C21151FC900CF63B7 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				51D1414A2115258100CF63B7 /* PBXTargetDependency */,
+				51D1414D2115258100CF63B7 /* PBXTargetDependency */,
 			);
 			name = UWPortalRedesign;
 			productName = UWPortalRedesign;
@@ -191,8 +381,19 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Joonwoo KIM";
 				TargetAttributes = {
+					51D141362115258100CF63B7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					51D1413F2115258100CF63B7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					51F86EA8210EA00300278AEE = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 					51F86EBC210EA00500278AEE = {
 						CreatedOnToolsVersion = 10.0;
@@ -220,18 +421,49 @@
 				51F86EA8210EA00300278AEE /* UWPortalRedesign */,
 				51F86EBC210EA00500278AEE /* UWPortalRedesignTests */,
 				51F86EC7210EA00500278AEE /* UWPortalRedesignUITests */,
+				51D141362115258100CF63B7 /* PortalIntents */,
+				51D1413F2115258100CF63B7 /* PortalIntentsUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		51D141352115258100CF63B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517729672116068C0064BA5F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D1413E2115258100CF63B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517729682116068D0064BA5F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51F86EA7210EA00300278AEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513E34072112814000DDDE66 /* DashBoard.png in Resources */,
+				5180B57E210EB6F50045C60E /* IMG_1435.jpg in Resources */,
+				51F86EDB210EA07400278AEE /* IMG_563C85D390A4-1.jpeg in Resources */,
 				51F86EB7210EA00500278AEE /* LaunchScreen.storyboard in Resources */,
 				51F86EB4210EA00500278AEE /* Assets.xcassets in Resources */,
+				517729662116068B0064BA5F /* MainInterface.storyboard in Resources */,
+				512A2BAE21128856005696F7 /* Settings.png in Resources */,
+				5188BC7B211145C700F29B22 /* profilepic.png in Resources */,
+				5180B57C210EACAD0045C60E /* defaultBackground.png in Resources */,
+				5188BC7D2111598300F29B22 /* Screen Shot 2018-07-31 at 10.59.00 PM.png in Resources */,
 				51F86EB2210EA00300278AEE /* Main.storyboard in Resources */,
+				51C57C452112862D00E2D943 /* NotificationNew.png in Resources */,
+				5188BC792111435000F29B22 /* SSCC-Pallet-Barcode.jpg in Resources */,
+				51C57C43211284DC00E2D943 /* Notification.png in Resources */,
+				5180B57A210EAA6A0045C60E /* UniversityOfWaterloo_logo_vert_rgb.png in Resources */,
+				5188BC772111425A00F29B22 /* ProfileImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,12 +484,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		51D141332115258100CF63B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5100B0CB21373D75007DF0CA /* RestaurantIntentHandler.swift in Sources */,
+				5100B0D321373DB6007DF0CA /* PortalIntentDefinition.intentdefinition in Sources */,
+				5100B0CE21373D7E007DF0CA /* RegistrarOfficeIntentHandler.swift in Sources */,
+				5100B0C821373D6D007DF0CA /* IntentHandler.swift in Sources */,
+				5100B0D121373D86007DF0CA /* NextClassIntentHandler.swift in Sources */,
+				51772964211606880064BA5F /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D1413C2115258100CF63B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5100B0CC21373D76007DF0CA /* RestaurantIntentHandler.swift in Sources */,
+				5100B0D421373DB7007DF0CA /* PortalIntentDefinition.intentdefinition in Sources */,
+				5100B0CF21373D81007DF0CA /* RegistrarOfficeIntentHandler.swift in Sources */,
+				5100B0C921373D6F007DF0CA /* IntentHandler.swift in Sources */,
+				5100B0D221373D88007DF0CA /* NextClassIntentHandler.swift in Sources */,
+				51772965211606880064BA5F /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51F86EA5210EA00300278AEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				51F86EAF210EA00300278AEE /* ViewController.swift in Sources */,
+				5100B0CA21373D73007DF0CA /* RestaurantIntentHandler.swift in Sources */,
+				51772963211606870064BA5F /* IntentViewController.swift in Sources */,
+				5100B0CD21373D7D007DF0CA /* RegistrarOfficeIntentHandler.swift in Sources */,
+				5100B0D021373D85007DF0CA /* NextClassIntentHandler.swift in Sources */,
 				51F86EAD210EA00300278AEE /* AppDelegate.swift in Sources */,
+				5100B0C721373D6A007DF0CA /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +543,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		51D1414A2115258100CF63B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51D1413F2115258100CF63B7 /* PortalIntentsUI */;
+			targetProxy = 51D141492115258100CF63B7 /* PBXContainerItemProxy */;
+		};
+		51D1414D2115258100CF63B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51D141362115258100CF63B7 /* PortalIntents */;
+			targetProxy = 51D1414C2115258100CF63B7 /* PBXContainerItemProxy */;
+		};
 		51F86EBF210EA00500278AEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 51F86EA8210EA00300278AEE /* UWPortalRedesign */;
@@ -293,6 +566,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		51D141452115258100CF63B7 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51D141462115258100CF63B7 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		51F86EB0210EA00300278AEE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -312,6 +593,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		51D141502115258100CF63B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = PortalIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.UWPortal.PortalIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51D141512115258100CF63B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = PortalIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.UWPortal.PortalIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51D141532115258100CF63B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = PortalIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.UWPortal.PortalIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51D141542115258100CF63B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = PortalIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.UWPortal.PortalIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		51F86ECF210EA00500278AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -431,15 +788,17 @@
 		51F86ED2210EA00500278AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UWPortalRedesign/UWPortalRedesign.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5AKLERAMJ2;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
 				INFOPLIST_FILE = UWPortalRedesign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.UWPortalRedesign;
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.UWPortal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,15 +808,17 @@
 		51F86ED3210EA00500278AEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UWPortalRedesign/UWPortalRedesign.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5AKLERAMJ2;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
 				INFOPLIST_FILE = UWPortalRedesign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.UWPortalRedesign;
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.UWPortal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,6 +910,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		51D1414F2115258100CF63B7 /* Build configuration list for PBXNativeTarget "PortalIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D141502115258100CF63B7 /* Debug */,
+				51D141512115258100CF63B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51D141522115258100CF63B7 /* Build configuration list for PBXNativeTarget "PortalIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D141532115258100CF63B7 /* Debug */,
+				51D141542115258100CF63B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		51F86EA4210EA00300278AEE /* Build configuration list for PBXProject "UWPortalRedesign" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

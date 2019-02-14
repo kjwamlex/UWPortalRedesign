@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14306.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14278.2"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +14,66 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3k8-25-zmu">
+                                <rect key="frame" x="36" y="140.5" width="248" height="287"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNIVERSITY OF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEw-0l-cj0">
+                                        <rect key="frame" x="27.5" y="8" width="193" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="4w0-is-tAX"/>
+                                            <constraint firstAttribute="width" constant="193" id="qFh-NQ-9dE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WATERLOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3c-cS-4ce">
+                                        <rect key="frame" x="5" y="32" width="238" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="238" id="4wc-zD-fXj"/>
+                                            <constraint firstAttribute="height" constant="53" id="94n-7e-8wG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UniversityOfWaterloo_logo_vert_rgb.png" translatesAutoresizingMaskIntoConstraints="NO" id="hYw-NO-mDV">
+                                        <rect key="frame" x="41" y="93" width="166" height="194"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="194" id="F6G-J2-0ND"/>
+                                            <constraint firstAttribute="width" constant="166" id="i6K-y5-wKJ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="287" id="5q3-wM-EWz"/>
+                                    <constraint firstItem="OEw-0l-cj0" firstAttribute="top" secondItem="3k8-25-zmu" secondAttribute="top" constant="8" id="7mi-ci-hVL"/>
+                                    <constraint firstItem="hYw-NO-mDV" firstAttribute="centerX" secondItem="3k8-25-zmu" secondAttribute="centerX" id="XWS-za-lRg"/>
+                                    <constraint firstItem="S3c-cS-4ce" firstAttribute="top" secondItem="3k8-25-zmu" secondAttribute="top" constant="32" id="Xey-L6-HVh"/>
+                                    <constraint firstItem="S3c-cS-4ce" firstAttribute="centerX" secondItem="3k8-25-zmu" secondAttribute="centerX" id="avT-FF-lLi"/>
+                                    <constraint firstAttribute="bottom" secondItem="hYw-NO-mDV" secondAttribute="bottom" id="hmv-Nb-v63"/>
+                                    <constraint firstAttribute="width" constant="248" id="j5s-DM-0Wt"/>
+                                    <constraint firstItem="hYw-NO-mDV" firstAttribute="centerX" secondItem="3k8-25-zmu" secondAttribute="centerX" id="ry1-Hk-VgG"/>
+                                    <constraint firstItem="OEw-0l-cj0" firstAttribute="centerX" secondItem="3k8-25-zmu" secondAttribute="centerX" id="yH9-Dv-oq1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.84313725490196079" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3k8-25-zmu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="O0h-3p-oWN"/>
+                            <constraint firstItem="3k8-25-zmu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="XEd-Ya-ps7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="UniversityOfWaterloo_logo_vert_rgb.png" width="154" height="180"/>
+    </resources>
 </document>
