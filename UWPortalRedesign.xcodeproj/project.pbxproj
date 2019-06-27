@@ -21,6 +21,7 @@
 		5100B0D221373D88007DF0CA /* NextClassIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D14157211529F700CF63B7 /* NextClassIntentHandler.swift */; };
 		5100B0D321373DB6007DF0CA /* PortalIntentDefinition.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 51D1410D21151FFD00CF63B7 /* PortalIntentDefinition.intentdefinition */; };
 		5100B0D421373DB7007DF0CA /* PortalIntentDefinition.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 51D1410D21151FFD00CF63B7 /* PortalIntentDefinition.intentdefinition */; };
+		511C68B522C55C12006B2901 /* PortalIntentDefinition.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 51D1410D21151FFD00CF63B7 /* PortalIntentDefinition.intentdefinition */; };
 		512A2BAE21128856005696F7 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 512A2BAD21128855005696F7 /* Settings.png */; };
 		513E34072112814000DDDE66 /* DashBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = 513E34062112813F00DDDE66 /* DashBoard.png */; };
 		51772963211606870064BA5F /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D141432115258100CF63B7 /* IntentViewController.swift */; };
@@ -519,6 +520,7 @@
 				51772963211606870064BA5F /* IntentViewController.swift in Sources */,
 				5100B0CD21373D7D007DF0CA /* RegistrarOfficeIntentHandler.swift in Sources */,
 				5100B0D021373D85007DF0CA /* NextClassIntentHandler.swift in Sources */,
+				511C68B522C55C12006B2901 /* PortalIntentDefinition.intentdefinition in Sources */,
 				51F86EAD210EA00300278AEE /* AppDelegate.swift in Sources */,
 				5100B0C721373D6A007DF0CA /* IntentHandler.swift in Sources */,
 			);
